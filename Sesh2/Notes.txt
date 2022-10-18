@@ -1,0 +1,9 @@
+Go over basic data types and structures in Python:
+- List
+- Dictinoary
+- Set
+- For loop
+   - Zip
+   - Enumerate
+- While loop
+- Maybe some OOP?
