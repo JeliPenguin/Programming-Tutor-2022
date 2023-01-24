@@ -16,6 +16,9 @@ class Animal():
 rabbit = Animal("rabbit", False)
 wolf = Animal("wolf", True)
 animaliList = [rabbit, wolf]
+#Polymorphism
 for ob in animaliList:
     ob.eat()
     ob.jump()
+
+
