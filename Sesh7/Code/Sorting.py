@@ -1,4 +1,4 @@
-test = [5, 2, 1, 4, 3]
+test = [0, 2, 1, 4, 3]
 
 # https://www.geeksforgeeks.org/quick-sort/
 
@@ -13,9 +13,7 @@ def quicksort(arr, low, high):
 
 
 def swap(arr, i, j):
-    buffer = arr[i]
-    arr[i] = arr[j]
-    arr[j] = buffer
+    arr[i], arr[j] = arr[j], arr[i]
 
 
 def partition(arr, low, high):
@@ -76,6 +74,6 @@ if __name__ == "__main__":
     qS = test.copy()
     quicksort(qS, 0, len(test)-1)
     print(qS)
-    hS = test.copy()
-    heapSort(hS)
-    print(hS)
+    # hS = test.copy()
+    # heapSort(hS)
+    # print(hS)
